@@ -1,0 +1,32 @@
+{
+  "name": "jsonminifyify",
+  "version": "0.1.0",
+  "description": "Browserify transform to minify JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decipherinc/jsonminifyify.git"
+  },
+  "keywords": [
+    "json",
+    "minify",
+    "browserify",
+    "shrink",
+    "compress"
+  ],
+  "author": "Christopher Hiller <chiller@focusvision.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decipherinc/jsonminifyify/issues"
+  },
+  "homepage": "https://github.com/decipherinc/jsonminifyify#readme",
+  "dependencies": {
+    "jsonminify": "^0.2.3",
+    "minimatch": "^2.0.8",
+    "through2": "^2.0.0",
+    "transformify": "^0.1.2"
+  }
+}
